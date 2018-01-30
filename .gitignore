@@ -1,3 +1,5 @@
 .DS_Store
 *.xcuserstate
 /CurrencyConversion.xcodeproj/project.xcworkspace/xcuserdata/nagasaijyothi.xcuserdatad/UserInterfaceState.xcuserstate
+*.xcbkptlist
+/CurrencyConversion.xcodeproj/xcuserdata/nagasaijyothi.xcuserdatad/xcdebugger/Breakpoints_v2.xcbkptlist

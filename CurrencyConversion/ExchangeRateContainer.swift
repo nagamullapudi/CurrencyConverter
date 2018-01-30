@@ -30,7 +30,7 @@ class ExchangeRateContainer {
 extension ExchangeRateContainer {
     //MARK: Archiving Paths
     static let DocumentsDirectory = FileManager().urls(for: .documentDirectory, in: .userDomainMask).first!
-    static let ArchiveURL = DocumentsDirectory.appendingPathComponent("exchangeRates")
+    static let ArchiveURL = DocumentsDirectory.appendingPathComponent("eRates")
     
     func save() -> Bool {
         return NSKeyedArchiver.archiveRootObject(self.exchangeRates, toFile: ExchangeRateContainer.ArchiveURL.path)
