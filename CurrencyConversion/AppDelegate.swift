@@ -1,9 +1,9 @@
 //
 //  AppDelegate.swift
-//  CurrencyConversion
+//  CurrencyConverter
 //
-//  Created by Naga Sai Jyothi  on 2017-12-16.
-//  Copyright © 2017 Naga Sai Jyothi . All rights reserved.
+//  Created by Naga Mullapudi on 2018-01-22.
+//  Copyright © 2017 Naga Mullapudi. All rights reserved.
 //
 
 import UIKit
@@ -44,7 +44,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         self.saveContext()
     }
 
-    // MARK: - Core Data stack
+    // MARK: - Core Data stack - started working on it but never used.....to be implemented
 
     lazy var persistentContainer: NSPersistentContainer = {
         /*
@@ -53,7 +53,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
          application to it. This property is optional since there are legitimate
          error conditions that could cause the creation of the store to fail.
         */
-        let container = NSPersistentContainer(name: "CurrencyConversion")
+        let container = NSPersistentContainer(name: "CurrencyConverter")
         container.loadPersistentStores(completionHandler: { (storeDescription, error) in
             if let error = error as NSError? {
                 // Replace this implementation with code to handle the error appropriately.
